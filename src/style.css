@@ -55,7 +55,6 @@ label {
   border: 1px solid #ddd;
   border-radius: 8px;
   margin-bottom: 14px;
-  transition: border 0.2s;
 }
 
 .input:focus {
@@ -105,3 +104,10 @@ label {
   border-radius: 8px;
 }
 
+@media (min-width: 768px) {
+
+  .layout {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
